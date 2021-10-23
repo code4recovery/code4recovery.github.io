@@ -8,9 +8,26 @@ permalink: /projects
 
 Whether you use Wordpress or Django, or any other web platform, we have an open-source solution to help you publish recovery meeting information, so that addicts can meet and recover from addiction.
 
+- *All Recovery Groups Welcome*: Alcohol, narcotics, gambling, benzos, uppers, downers, lefters and righters, as long as your community attends meetings to discuss recovery, you can use this app to help organize and recover from addiction.
+- *Easy to use, accessible graphic interface*: 12 Step Meeting List (TSML) applications turn meeting info into clickable entries, so your users can easily find and attend meetings.
+- *Web conferencing*: Groups can include web conferencing information to create one-click joining
+- *Mapping*: Users can instantly see maps of the meeting destination.
+
 ### 12 Step Meeting List Wordpress Plugin `Production`
 
-12 Step Meeting List (TSML) is an open-source WordPress plugin that helps recovery organizations list their local weekly meetings. TSML entered production for Santa Clara County AA on May 2, 2014, and was made available on the WordPress Plugin Directory exactly one year later. It is currently in use by hundreds of recovery organizations.
+12 Step Meeting List (TSML) is an open-source WordPress plugin that helps recovery organizations list their local weekly meetings.
+
+#### Key Features
+
+- 700+ active installations
+- Easiest way to include your area meetings on Meeting Guide App for iOS and android
+- Pretty cool team
+
+#### History
+
+TSML entered production for Santa Clara County AA on May 2, 2014, and was made available on the WordPress Plugin Directory exactly one year later. It is currently in use by hundreds of recovery organizations.
+
+#### Quick Links for TSML Wordpress Plugin
 
 - [Demo](https://demo.code4recovery.org/meetings)
 - [WordPress Plugin Directory](https://wordpress.org/plugins/12-step-meeting-list)
@@ -36,9 +53,25 @@ Code for Recovery maintains the Meeting Guide JSON spec, which is a standard for
 
 ### TSML UI `Production`
 
-TSML UI takes the basic meeting finder concepts established in TSML and only renders the front-end user interface (UI). The power of this is that it enables websites not running WordPress to benefit from TSML's user-friendly interface.
+Publish and manage your area's recovery meetings for any web platform
 
-Eventually this will become the default front-end for TSML.
+#### Reason for being
+
+We want the recovery community to be independent of web platform. TSML UI takes the basic meeting finder concepts established in TSML and renders the front-end user interface (UI). By using TSML UI, websites not running WordPress can still benefit from TSML's user-friendly, recognized interface.
+
+Eventually, we envision TSML UI will become the default front-end for TSML.
+
+#### What does TSML UI look like?
+
+Check out the TSML UI [Demo](https://demo.code4recovery.org/tsml-ui).
+
+#### Simple installation
+
+TSML UI is an open source React web app available to anyone. Installation is slightly more involved than our Wordpress plugin, but we've boiled installation down to an easy copy-and-paste process. Even if you don't know how to read HTML or javascript, you'll still be able to install TSML UI.
+
+Use our [Configuration helper](https://tsml-ui-config.netlify.app) to get started.
+
+#### Quick Links for TSML UI
 
 - [Demo](https://demo.code4recovery.org/tsml-ui)
 - [Configuration helper](https://tsml-ui-config.netlify.app)
