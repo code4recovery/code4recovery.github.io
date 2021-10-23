@@ -4,7 +4,11 @@ title: Projects
 permalink: /projects
 ---
 
-### 12 Step Meeting List `Production`
+## A Meeting List for any Platform
+
+Whether you use Wordpress or Django, or any other web platform, we have an open-source solution to help you publish recovery meeting information, so that addicts can meet and recover from addiction.
+
+### 12 Step Meeting List Wordpress Plugin `Production`
 
 12 Step Meeting List (TSML) is an open-source WordPress plugin that helps recovery organizations list their local weekly meetings. TSML entered production for Santa Clara County AA on May 2, 2014, and was made available on the WordPress Plugin Directory exactly one year later. It is currently in use by hundreds of recovery organizations.
 
