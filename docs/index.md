@@ -3,12 +3,27 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Code for Recovery Information"
+title: ""
 ---
+
+
 
 Code for Recovery is a fellowship of volunteers in service building and maintaining open source solutions to help the recovery community meet, organize and recover from addiction.
 
 Here's what we're working on:
+
+- [Meeting finders](#meeting-finders)
+  - [12 Step Meeting List `Production`](#12-step-meeting-list-production)
+  - [TSML UI `Production`](#tsml-ui-production)
+  - [Wagtail Meeting Guide `Production`](#wagtail-meeting-guide-production)
+  - [Online Meeting List `Production`](#online-meeting-list-production)
+- [Supporting projects](#supporting-projects)
+  - [Spec `Production`](#spec-production)
+  - [API gateway `Development`](#api-gateway-development)
+  - [PDF `Production`](#pdf-production)
+  - [TSML Enhanced Feedback `Development`](#tsml-enhanced-feedback-development)
+  - [Sheets `Production`](#sheets-production)
+
 
 ## Meeting finders
 
