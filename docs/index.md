@@ -32,7 +32,7 @@ TSML UI takes the basic meeting finder concepts established in TSML and renders 
 Eventually this may become the default front-end for TSML.
 
 - [Demo](https://demo.code4recovery.org/tsml-ui)
-- [Configuration helper](https://tsml-ui-config.netlify.app)
+- [Configuration helper](https://tsml-ui.code4recovery.org)
 - [Source code on Github](https://github.com/code4recovery/tsml-ui) (React JS)
 - [Get help](https://github.com/code4recovery/tsml-ui/issues) (React JS)
 

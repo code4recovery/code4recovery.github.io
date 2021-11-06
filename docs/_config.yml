@@ -21,7 +21,7 @@
 title: Code for Recovery
 email: info@code4recovery.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Code for Recovery is a fellowship of volunteers in service building and maintaining technology solutions for recovery programs.
+  Code for Recovery is a fellowship of volunteers in service building and maintaining open source solutions to help the recovery community meet, organize and recover from addiction.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: code4recovery.github.io
 url: "https://code4recovery.github.io" # the base hostname & protocol for your site, e.g. http://example.com
