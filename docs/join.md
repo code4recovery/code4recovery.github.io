@@ -8,7 +8,7 @@ Are you a developer in recovery? Please email [info@code4recovery.org](mailto:in
 
 You are welcome to contribute to one of [our ongoing projects](/projects), or start your own.
 
-We have regular meetings on Zoom every other Saturday at 12pm US Central time. The next meeting is on <span id="next-meeting" style="text-decoration:underline;"></span>.
+We have regular meetings on Zoom every other Saturday at 12pm US Central time. The next meeting will be held on <span id="next-meeting" style="text-decoration:underline;"></span>.
 
 <script id="luxon" src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.2/luxon.min.js" integrity="sha512-frUCURIeB0OKMPgmDEwT3rC4NH2a4gn06N3Iw6T1z0WfrQZd7gNfJFbHrNsZP38PVXOp6nUiFtBqVvmCj+ARhw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -22,7 +22,6 @@ We have regular meetings on Zoom every other Saturday at 12pm US Central time. T
     }, {
         zone: 'America/Chicago'
     });
-    var now = luxon.DateTime.now();
-    var weeks = 2 * Math.ceil(now.diff(dt, 'weeks').toObject().weeks / 2);
+    var weeks = 2 * Math.ceil(luxon.DateTime.now().diff(dt, 'weeks').toObject().weeks / 2);
     document.getElementById('next-meeting').innerHTML = dt.plus({weeks: weeks}).toFormat('LLLL d');
 </script>
