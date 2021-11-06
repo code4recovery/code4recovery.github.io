@@ -1,17 +1,14 @@
 ---
 layout: page
-title: Projects
+title: Code for Recovery Projects
 permalink: /projects
 ---
 
-## A Meeting List for any Platform
+## Meeting Lists for Your Recovery Website: Any vice, any platform
 
-Whether you use Wordpress or Django, or any other web platform, we have an open-source solution to help you publish recovery meeting information, so that addicts can meet and recover from addiction.
+We make it easy for anyone to publish meeting data in our easily read and widely recognized web interface. We call these solutions 12 Step Meeting List, or TSML.
 
-- *All Recovery Groups Welcome*: Alcohol, narcotics, gambling, benzos, uppers, downers, lefters and righters, as long as your community attends meetings to discuss recovery, you can use this app to help organize and recover from addiction.
-- *Easy to use, accessible graphic interface*: 12 Step Meeting List (TSML) applications turn meeting info into clickable entries, so your users can easily find and attend meetings.
-- *Web conferencing*: Groups can include web conferencing information to create one-click joining
-- *Mapping*: Users can instantly see maps of the meeting destination.
+Find your platform below.
 
 ### 12 Step Meeting List Wordpress Plugin `Production`
 
