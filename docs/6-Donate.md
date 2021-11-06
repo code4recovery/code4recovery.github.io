@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Donate | Code for Recovery
+title: Donate
 permalink: /donate
 ---
 

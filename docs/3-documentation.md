@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation | Code for Recovery
+title: Documentation
 permalink: /documentation
 ---
 

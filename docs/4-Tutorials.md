@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutorials | Code for Recovery
+title: Tutorials
 permalink: /tutorials
 ---
 

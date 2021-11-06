@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Code for Recovery Projects
+title: Projects
 permalink: /projects
 ---
 

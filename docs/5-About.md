@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About us | Code for Recovery
-permalink: /donate
+title: About
+permalink: /about
 ---
 
 ## Our Team
