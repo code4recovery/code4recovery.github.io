@@ -10,48 +10,58 @@
       {
         amount: 5,
         key: "price_1JtkoTHBXGNcJIH40BxXYI0W",
+        mode: "payment",
       },
       {
         amount: 5,
         key: "price_1JtkmWHBXGNcJIH4p9CkMisL",
+        mode: "subscription",
       },
       {
         amount: 60,
         key: "price_1JtkJuHBXGNcJIH4M3fKlxCB",
+        mode: "subscription",
       },
     ],
     [
       {
         amount: 25,
         key: "price_1JtkoTHBXGNcJIH4jLJjnR0S",
+        mode: "payment",
       },
       {
         amount: 25,
         key: "price_1JtkmWHBXGNcJIH4A6Q9ulCB",
+        mode: "subscription",
       },
       {
         amount: 120,
         key: "price_1JtkOOHBXGNcJIH4ePCBuh4K",
+        mode: "subscription",
       },
     ],
     [
       {
         amount: 50,
         key: "price_1JtkoTHBXGNcJIH4JjUQaRnd",
+        mode: "payment",
       },
       {
         amount: 50,
         key: "price_1JtkmWHBXGNcJIH4y5am3SgK",
+        mode: "subscription",
       },
     ],
     [
       {
         amount: 100,
         key: "price_1JtkoTHBXGNcJIH461SbDvww",
+        mode: "payment",
       },
       {
         amount: 100,
         key: "price_1JtkmWHBXGNcJIH4g50g3fct",
+        mode: "subscription",
       },
     ],
   ];
@@ -75,6 +85,8 @@
               return (
                 "<td><button role='link' type='button' data-key='" +
                 cell.key +
+                "' data-mode='" +
+                cell.mode +
                 "'>$" +
                 cell.amount +
                 "</button></td>"
@@ -89,6 +101,7 @@
 
   donationsGrid.addEventListener("click", function (e) {
     var price = e.target.getAttribute("data-key");
+    var mode = e.target.getAttribute("data-mode");
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
@@ -96,7 +109,7 @@
     stripe
       .redirectToCheckout({
         lineItems: [{ price: price, quantity: 1 }],
-        mode: "payment",
+        mode: mode,
         /*
          * Do not rely on the redirect to the successUrl for fulfilling
          * purchases, customers may not always reach the success_url after
