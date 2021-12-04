@@ -15,8 +15,8 @@ We have regular meetings on Zoom every other Saturday at 12pm US Central time. T
 <script>
     var dt = luxon.DateTime.fromObject({
         year: 2021,
-        month: 10,
-        day: 16,
+        month: 12,
+        day: 4,
         hour: 12,
         minute: 0
     }, {
