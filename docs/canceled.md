@@ -2,6 +2,7 @@
 layout: page
 title: Canceled
 permalink: /canceled
+exclude: true
 ---
 
 We're saddened to see you go. Will you please reconsider?

@@ -2,6 +2,7 @@
 layout: page
 title: Success
 permalink: /success
+exlude: true
 ---
 <h2>
 
