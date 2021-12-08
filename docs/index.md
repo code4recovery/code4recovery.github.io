@@ -22,7 +22,6 @@ Here's what we're working on:
   - [API gateway `Development`](#api-gateway-development)
   - [PDF `Production`](#pdf-production)
   - [TSML Enhanced Feedback `Development`](#tsml-enhanced-feedback-development)
-  - [Sheets `Production`](#sheets-production)
 
 
 ## Meeting finders
@@ -34,7 +33,7 @@ Here's what we're working on:
 - [Demo](https://demo.code4recovery.org/meetings)
 - [WordPress Plugin Directory](https://wordpress.org/plugins/12-step-meeting-list)
 - [Source code on Github](https://github.com/code4recovery/12-step-meeting-list) (PHP / WordPress)
-- [Get help](https://github.com/code4recovery/12-step-meeting-list/discussions) (Python / Django)
+- [Get help](https://github.com/code4recovery/12-step-meeting-list/discussions)
 
 &nbsp;
 
@@ -51,7 +50,7 @@ Eventually this may become the default front-end for TSML.
 - [Demo](https://demo.code4recovery.org/tsml-ui)
 - [Configuration helper](https://tsml-ui.code4recovery.org)
 - [Source code on Github](https://github.com/code4recovery/tsml-ui) (React JS)
-- [Get help](https://github.com/code4recovery/tsml-ui/issues) (React JS)
+- [Get help](https://github.com/code4recovery/tsml-ui/issues)
 
 &nbsp;
 
@@ -64,8 +63,8 @@ Eventually this may become the default front-end for TSML.
 Wagtail Meeting Guide is a Django-based content management system currently in use by the Southeast Pennsylvania Intergroup Association to list meetings and provide other back-office functionality.
 
 - [SEPIA](https://aasepia.org/)
-- [Source code on Github](https://github.com/code4recovery/wagtail-meeting-guide) (React / TypeScript)
-- [Get help](https://github.com/code4recovery/wagtail-meeting-guide/issues) (Python / Django)
+- [Source code on Github](https://github.com/code4recovery/wagtail-meeting-guide) (Python / Django)
+- [Get help](https://github.com/code4recovery/wagtail-meeting-guide/issues)
 
 &nbsp;
 
@@ -122,7 +121,7 @@ This project takes a Meeting Guide-spec JSON feed and generates a printable PDF 
 
 - [Link](https://pdf.code4recovery.org/)
 - [Source code on Github](https://github.com/code4recovery/pdf) (PHP / Laravel)
-- [Get help](https://github.com/code4recovery/pdf/issues) (PHP / Laravel)
+- [Get help](https://github.com/code4recovery/pdf/issues)
 
 &nbsp;
 
@@ -135,18 +134,4 @@ This project takes a Meeting Guide-spec JSON feed and generates a printable PDF 
 This WordPress plugin will provide a richer experience for users to provide feedback about a meeting.
 
 - [Source code on Github](https://github.com/code4recovery/12-step-meeting-list-feedback-enhancement) (PHP / WordPress)
-- [Get help](https://github.com/code4recovery/12-step-meeting-list-feedback-enhancement/issues) (PHP / Laravel)
-
-&nbsp;
-
----
-
-&nbsp;
-
-### Sheets `Production`
-
-This project fetches meeting data from Google Sheets using the `v4` API and transforms it into a CORS-enabled minified Meeting Guide-spec JSON file. Currently in use by [Online Intergroup](https://aa-intergroup.org/meetings) and [Santa Clara County AA](https://aasanjose.org/meetings).
-
-- [Log in](https://sheets.code4recovery.org)
-- [Source code](https://github.com/code4recovery/sheets) (PHP / Laravel)
-- [Get help](https://github.com/code4recovery/sheets/issues) (PHP / Laravel)
+- [Get help](https://github.com/code4recovery/12-step-meeting-list-feedback-enhancement/issues)
