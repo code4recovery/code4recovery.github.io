@@ -117,8 +117,8 @@
          * Instead use one of the strategies described in
          * https://stripe.com/docs/payments/checkout/fulfill-orders
          */
-        successUrl: "https://rnptech.org/success",
-        cancelUrl: "https://rnptech.org/canceled",
+        successUrl: "https://code4recovery.org/success",
+        cancelUrl: "https://code4recovery.org/canceled",
       })
       .then(function (result) {
         if (result.error) {
